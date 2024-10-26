@@ -1,0 +1,227 @@
+		Current Bank Accounts
+Last Name:	First Name:	SSN:	   Account Number:		Account Type:	Balance:
+Doe         John        123456789  100000 				Checking 		$  543.65
+Doe         John        123456789  110000 				Savings  		$10987.03
+Doe         John        123456789  111000 				CD       		$ 1234.67
+Wickens     Red         567567567  200000 				Savings  		$46947.89
+Bob         Brock       123123123  300000 				Savings  		$ 3487.10
+Carter      Jane        987654321  400000 				Checking 		$  198.35
+Carter      Jane        987654321  400001 				Savings  		$  198.35
+Carter      Jane        987654321  400002 				CD       		$ 1074.06
+Pax         Peter       345345345  500000 				Checking 		$  145.48
+Ali         Muhammad    234234234  600000 				Checking 		$82456.10
+Li          John        678678678  700000 				Checking 		$    0.00
+Wright      Ophelia     789789789  800000 				CD       		$ 1846.38
+Pax         George      890890890  900000 				CD       		$ 4956.34
+James       Lebron      101101101  690000 				CD       		$16458.75
+
+Transaction Requested: Balance Inquiry
+Account Number: 100000
+Account type: Checking
+Current Balance: $543.65
+
+Transaction Requested: Balance Inquiry
+Error: Account number 810000 does not exist
+
+Transaction Requested: Deposit
+Account Number: 200000
+Account type: Savings
+Old Balance: $46947.89
+Amount to Withdraw: $100.67
+New Balance: $47048.56
+
+Transaction Requested: Deposit
+Account Number: 300000
+Account type: Savings
+Amount to Withdraw: $-189.09
+Error: $-189.09 is an invalid amount
+
+Transaction Requested: Deposit
+Error: Account number 928900 does not exist
+
+Transaction Requested: Withdraw
+Account Number: 400000
+Account type: Checking
+Old Balance: $198.35
+Amount to Withdraw: $100.00
+New Balance: $98.35
+
+Transaction Requested: Balance Inquiry
+Account Number: 400001
+Account type: Savings
+Current Balance: $198.35
+
+Transaction Requested: Balance Inquiry
+Account Number: 400002
+Account type: CD
+Current Balance: $1074.06
+
+Transaction Requested: Withdraw
+Account Number: 500000
+Account type: Checking
+Old Balance: $145.48
+Amount to Withdraw: $-379.90
+Error: $-379.90 is an invalid amount
+
+Transaction Requested: Withdraw
+Account Number: 600000
+Account type: Checking
+Old Balance: $82456.10
+Amount to Withdraw: $90000.90
+Error: $90000.90 is an invalid amount
+
+Transaction Requested: Withdraw
+Error: Account number 320000 does not exist
+
+Transaction Requested: New Account
+Your Last Name: Corner
+Your First Name: Bill
+Your SSN: 222222222
+Proposed Account Number: 444444
+Account type: CD
+Opnening Balance: $345.90
+Congratulations! Your account 444444 has been made, welcome to our Bank!
+
+Transaction Requested: Deposit
+Account Number: 444444
+Account type: CD
+Old Balance: $345.90
+Amount to Withdraw: $100.00
+New Balance: $445.90
+
+Transaction Requested: Withdraw
+Account Number: 444444
+Account type: CD
+Old Balance: $445.90
+Amount to Withdraw: $50.00
+New Balance: $395.90
+
+Transaction Requested: New Account
+Your Last Name: Galiard
+Your First Name: Arthur
+Your SSN: 333333333
+Proposed Account Number: 480000
+Account type: Savings
+Congratulations! Your account 480000 has been made, welcome to our Bank!
+
+Transaction Requested: Deposit
+Account Number: 480000
+Account type: Savings
+Old Balance: $0.00
+Amount to Withdraw: $300.00
+New Balance: $300.00
+
+Transaction Requested: Withdraw
+Account Number: 480000
+Account type: Savings
+Old Balance: $300.00
+Amount to Withdraw: $40.00
+New Balance: $260.00
+
+Transaction Requested: New Account
+Your Last Name: Young
+Your First Name: Li
+Your SSN: 555555555
+Proposed Account Number: 490000
+Account type: Checking
+Congratulations! Your account 490000 has been made, welcome to our Bank!
+
+Transaction Requested: Deposit
+Account Number: 490000
+Account type: Checking
+Old Balance: $0.00
+Amount to Withdraw: $1000.00
+New Balance: $1000.00
+
+Transaction Requested: Withdraw
+Account Number: 490000
+Account type: Checking
+Old Balance: $1000.00
+Amount to Withdraw: $670.00
+New Balance: $330.00
+
+Transaction Requested: New Account
+Your Last Name: Yo
+Your First Name: Yo
+Your SSN: 777777777
+Proposed Account Number: 100000
+Error: Account 100000 already exists
+
+Transaction Requested: Delete Account
+Account Number: 700000
+Account type: Checking
+Your account has been deleted, sorry to see you go!
+
+Transaction Requested: Delete Account
+Account Number: 800000
+Account type: CD
+Error: Account 800000 does not have a balance of zero
+
+Transaction Requested: Balance Inquiry
+Account Number: 800000
+Account type: CD
+Current Balance: $1846.38
+
+Transaction Requested: Withdraw
+Account Number: 800000
+Account type: CD
+Old Balance: $1846.38
+Amount to Withdraw: $1846.38
+New Balance: $0.00
+
+Transaction Requested: Delete Account
+Account Number: 800000
+Account type: CD
+Your account has been deleted, sorry to see you go!
+
+Error: y is an invalid selection -  try again
+
+Transaction Requested: Account Info
+SSN: 123456789
+Last Name:	First Name:	SSN:	   Account Number:		Account Type:	Balance:
+Doe         John        123456789  100000 				Checking 		$  543.65
+Doe         John        123456789  110000 				Savings  		$10987.03
+Doe         John        123456789  111000 				CD       		$ 1234.67
+
+Transaction Requested: Account Info
+SSN: 987654321
+Last Name:	First Name:	SSN:	   Account Number:		Account Type:	Balance:
+Carter      Jane        987654321  400000 				Checking 		$   98.35
+Carter      Jane        987654321  400001 				Savings  		$  198.35
+Carter      Jane        987654321  400002 				CD       		$ 1074.06
+
+Transaction Requested: Account Info
+SSN: 101101101
+Last Name:	First Name:	SSN:	   Account Number:		Account Type:	Balance:
+James       Lebron      101101101  690000 				CD       		$16458.75
+
+Transaction Requested: Account Info
+Error: SSN 666666666 does not exist in our database: 
+
+Error: u is an invalid selection -  try again
+
+Error: k is an invalid selection -  try again
+
+Transaction Requested: Account Info
+SSN: 345345345
+Last Name:	First Name:	SSN:	   Account Number:		Account Type:	Balance:
+Pax         Peter       345345345  500000 				Checking 		$  145.48
+
+		Current Bank Accounts
+Last Name:	First Name:	SSN:	   Account Number:		Account Type:	Balance:
+Doe         John        123456789  100000 				Checking 		$  543.65
+Doe         John        123456789  110000 				Savings  		$10987.03
+Doe         John        123456789  111000 				CD       		$ 1234.67
+Wickens     Red         567567567  200000 				Savings  		$47048.56
+Bob         Brock       123123123  300000 				Savings  		$ 3487.10
+Carter      Jane        987654321  400000 				Checking 		$   98.35
+Carter      Jane        987654321  400001 				Savings  		$  198.35
+Carter      Jane        987654321  400002 				CD       		$ 1074.06
+Pax         Peter       345345345  500000 				Checking 		$  145.48
+Ali         Muhammad    234234234  600000 				Checking 		$82456.10
+Pax         George      890890890  900000 				CD       		$ 4956.34
+James       Lebron      101101101  690000 				CD       		$16458.75
+Corner      Bill        222222222  444444 				CD       		$  395.90
+Galiard     Arthur      333333333  480000 				Savings  		$  260.00
+Young       Li          555555555  490000 				Checking 		$  330.00
+

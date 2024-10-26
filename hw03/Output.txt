@@ -1,0 +1,213 @@
+		Current Bank Accounts
+Last Name:	First Name:	SSN:		Account Number:	Account Type:	Balance:	Maturity Date:
+Doe         John        123456789   100000			Checking 		$  543.65	N/A
+Doe         John        123456789   110000			Savings  		$10987.03	N/A
+Doe         John        123456789   111000			CD       		$ 1234.67	02/20/2023
+Wickens     Red         567567567   200000			Savings  		$46947.89	N/A
+Bob         Brock       123123123   300000			Savings  		$ 3487.10	N/A
+Doe         Jane        987654321   400000			Checking 		$  198.35	N/A
+Doe         Jane        987654321   400001			Savings  		$  198.35	N/A
+Doe         Jane        987654321   400002			CD       		$ 1074.06	06/28/2023
+Pax         Peter       345345345   500000			Checking 		$  145.48	N/A
+Ali         Muhammad    234234234   600000			Checking 		$82456.10	N/A
+Li          John        678678678   700000			Checking 		$    0.00	N/A
+Wright      Ophelia     789789789   800000			CD       		$ 1846.38	01/01/2023
+Pax         George      890890890   900000			CD       		$ 4956.34	05/06/2023
+James       Lebron      101101101   690000			CD       		$16458.75	01/04/2023
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Balance
+Account Number: 100000
+Account type: Checking
+Current Balance: $543.65
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Balance
+Account Number: 110000
+Account type: Savings
+Current Balance: $10987.03
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Balance
+Account Number: 111000
+Account type: CD
+Current Balance: $1234.67
+Maturity Date: 03/20/2023
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Balance
+Error: Account 777777 does not exist: 
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Clear Check
+Account number: 400000
+Account type: Checking
+Old Balance: $198.35
+Amount of Check: $100.00
+New Balance: $98.35
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Balance
+Account Number: 400002
+Account type: CD
+Current Balance: $1074.06
+Maturity Date: 07/28/2023
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Clear Check
+Account number: 400000
+Account type: Checking
+Old Balance: $98.35
+Amount of Check: $50.00
+New Balance: $98.35
+Error: Check date (4/17/2023) not reached yet
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Clear Check
+Account number: 400000
+Account type: Checking
+Old Balance: $98.35
+Amount of Check: $50.00
+New Balance: $98.35
+Error: The check is too old and  dated at (1/17/2022), for reference, it should have been chased in by 7/17/2022
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Delete Account
+Account Number: 700000
+Account type: Checking
+Your account has been deleted, sorry to see you go!
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: New Account
+Your Last Name: Corner
+Your First Name: Bill
+Your SSN: 222222222
+Proposed Account Number: 444444
+Account type: CD
+Opening balance: 345.9
+Maturity Date: 9/24/2023
+Congratulations! Your account 444444 has been made, welcome to our Bank!
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: New Account
+Your Last Name: Galiard
+Your First Name: Arthur
+Your SSN: 333333333
+Proposed Account Number: 480000
+Account type: Savings
+Congratulations! Your account 480000 has been made, welcome to our Bank!
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: New Account
+Your Last Name: Jane
+Your First Name: Jill
+Your SSN: 379379379
+Proposed Account Number: 379379
+Account type: Roth
+Error: Account type Roth cannot be accepted, choose from the choices available (Checking, Savings, CD)
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Account Info
+		Current Accounts With Your Matching SSN: 
+Last Name:	First Name:	SSN:		Account Number:	Account Type:	Balance:	Maturity Date:
+Doe         John        123456789   100000			Checking 		$  543.65	N/A
+Doe         John        123456789   110000			Savings  		$10987.03	N/A
+Doe         John        123456789   111000			CD       		$ 1234.67	02/20/2023
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Delete Account
+Account Number: 800000
+Account type: CD
+Account Balance: 1846.38
+Error: Account 800000 does not have a balance of zero
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Balance
+Account Number: 800000
+Account type: CD
+Current Balance: $1846.38
+Maturity Date: 02/01/2023
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Withdraw
+Account Number: 800000
+Account type: CD
+Old Balance: $1846.38
+Amount to Withdraw: $1846.38
+New Balance: $0.00
+New Maturity Date: 7/1/2023
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Delete Account
+Account Number: 800000
+Account type: CD
+Your account has been deleted, sorry to see you go!
+
+Error: z is an invalid selection -  try again
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Deposit
+Account Number: 100000
+Account type: Checking
+Old Balance: $543.65
+Amount to Deposit: $-890.90
+Error: $-890.90 is an invalid amount
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Deposit
+Account Number: 100000
+Account type: Checking
+Old Balance: $543.65
+Amount to Deposit: $100.00
+New Balance: $643.65
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Withdraw
+Account Number: 100000
+Account type: Checking
+Old Balance: $643.65
+Amount to Withdraw: $50.00
+New Balance: $593.65
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Withdraw
+Account Number: 100000
+Account type: Checking
+Old Balance: $593.65
+Amount to Withdraw: $190000.00
+Error: $190000.00 is an invalid amount
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Deposit
+Account Number: 110000
+Account type: Savings
+Old Balance: $10987.03
+Amount to Deposit: $1000.00
+New Balance: $11987.03
+
+Thu Mar 02 16:02:00 EST 2023
+Transaction Requested: Withdraw
+Account Number: 111000
+Account type: CD
+Old Balance: $1234.67
+Amount to Withdraw: $1000.00
+New Balance: $234.67
+New Maturity Date: 2/20/2025
+
+		Current Bank Accounts
+Last Name:	First Name:	SSN:		Account Number:	Account Type:	Balance:	Maturity Date:
+Doe         John        123456789   100000			Checking 		$  593.65	N/A
+Doe         John        123456789   110000			Savings  		$11987.03	N/A
+Doe         John        123456789   111000			CD       		$  234.67	02/20/2025
+Wickens     Red         567567567   200000			Savings  		$46947.89	N/A
+Bob         Brock       123123123   300000			Savings  		$ 3487.10	N/A
+Doe         Jane        987654321   400000			Checking 		$   98.35	N/A
+Doe         Jane        987654321   400001			Savings  		$  198.35	N/A
+Doe         Jane        987654321   400002			CD       		$ 1074.06	06/28/2023
+Pax         Peter       345345345   500000			Checking 		$  145.48	N/A
+Ali         Muhammad    234234234   600000			Checking 		$82456.10	N/A
+Pax         George      890890890   900000			CD       		$ 4956.34	05/06/2023
+James       Lebron      101101101   690000			CD       		$16458.75	01/04/2023
+Corner      Bill        222222222   444444			CD       		$  345.90	08/24/2023
+Galiard     Arthur      333333333   480000			Savings  		$    0.00	N/A
+

@@ -1,0 +1,157 @@
+		Current Bank Accounts
+
+Account Balance
+ 100000  $ 543.65
+ 200000  $46947.89
+ 300000  $3487.10
+ 400000  $ 198.35
+ 500000  $ 145.48
+ 600000  $82456.10
+ 700000  $   0.00
+ 800000  $1846.38
+ 900000  $4956.34
+ 110000  $16458.75
+
+Transaction Requested: Balance Inquiry
+Account Number: 100000
+Current Balance: $543.65
+
+Transaction Requested: Balance Inquiry
+Error: Account number 810000 does not exist
+
+Transaction Requested: Deposit
+Account Number: 200000
+Old Balance: $46947.89
+Amount to Deposit: $100.67
+New Balance: $47048.56
+
+Transaction Requested: Deposit
+Account Number: 300000
+Amount to Deposit: $-189.09
+Error: $-189.09 is an invalid amount
+
+Transaction Requested: Deposit
+Error: Account number 928900 does not exist
+
+Transaction Requested: Withdraw
+Account Number: 400000
+Old Balance: $198.35
+Amount to Withdraw: $100.0
+New Balance: $98.35
+
+Transaction Requested: Withdraw
+Account Number: 500000
+Old Balance: $145.48
+Amount to Withdraw: $-379.9
+Error: $-379.90 is an invalid amount
+
+Transaction Requested: Withdraw
+Account Number: 600000
+Old Balance: $82456.10
+Amount to Withdraw: $90000.9
+Error: $90000.90 is an invalid amount
+
+Transaction Requested: Withdraw
+Error: Account number 320000 does not exist
+
+Transaction Requested: New Account
+Proposed Account Number: 470000
+Congratulations! Your account 470000 has been made, welcome to our Bank!
+
+Transaction Requested: Deposit
+Account Number: 470000
+Old Balance: $0.00
+Amount to Deposit: $100.0
+New Balance: $100.00
+
+Transaction Requested: Withdraw
+Account Number: 470000
+Old Balance: $100.00
+Amount to Withdraw: $50.0
+New Balance: $50.00
+
+Transaction Requested: New Account
+Proposed Account Number: 480000
+Congratulations! Your account 480000 has been made, welcome to our Bank!
+
+Transaction Requested: Deposit
+Account Number: 480000
+Old Balance: $0.00
+Amount to Deposit: $300.0
+New Balance: $300.00
+
+Transaction Requested: Withdraw
+Account Number: 480000
+Old Balance: $300.00
+Amount to Withdraw: $40.0
+New Balance: $260.00
+
+Transaction Requested: New Account
+Proposed Account Number: 490000
+Congratulations! Your account 490000 has been made, welcome to our Bank!
+
+Transaction Requested: Deposit
+Account Number: 490000
+Old Balance: $0.00
+Amount to Deposit: $1000.0
+New Balance: $1000.00
+
+Transaction Requested: Withdraw
+Account Number: 490000
+Old Balance: $1000.00
+Amount to Withdraw: $670.0
+New Balance: $330.00
+
+Transaction Requested: New Account
+Proposed Account Number: 100000
+Error: Account 100000 already exists
+
+Transaction Requested: New Account
+Proposed Account Number: -1999
+Error: Proposed Account -1999 cannot be accepted
+
+Transaction Requested: Delete Account
+Account Number: 700000
+Your account has been deleted, sorry to see you go!
+
+Transaction Requested: Delete Account
+Account Number: 800000
+Error: Account 800000 does not have a balance of zero
+
+Transaction Requested: Balance Inquiry
+Account Number: 800000
+Current Balance: $1846.38
+
+Transaction Requested: Withdraw
+Account Number: 800000
+Old Balance: $1846.38
+Amount to Withdraw: $1846.38
+New Balance: $0.00
+
+Transaction Requested: Delete Account
+Account Number: 800000
+Your account has been deleted, sorry to see you go!
+
+Transaction Requested: Delete Account
+Account Number: 778083
+Error: 778083 does not exist
+
+Error: r is an invalid selection -  try again
+
+Error: Y is an invalid selection -  try again
+
+		Current Bank Accounts
+
+Account Balance
+ 100000  $ 543.65
+ 200000  $47048.56
+ 300000  $3487.10
+ 400000  $  98.35
+ 500000  $ 145.48
+ 600000  $82456.10
+ 900000  $4956.34
+ 110000  $16458.75
+ 470000  $  50.00
+ 480000  $ 260.00
+ 490000  $ 330.00
+
